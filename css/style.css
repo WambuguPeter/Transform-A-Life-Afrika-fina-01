@@ -1,0 +1,120 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.wrapper{
+    margin-top: 5%;
+}
+
+.mission{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: red;
+}
+
+.mission .team_member{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+
+.mission .team_member h3{
+    color: yellowgreen;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.mission .team_member p.role{
+    color: blueviolet;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px;
+}
+
+.mission .team_member .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    
+} 
+
+.mission .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.team .team_member{
+    background: hsl(0, 37%, 93%);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+
+.team .team_member h3{
+    color: brown;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team_member p.role{
+    color: blueviolet;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px;
+}
+
+.team .team_member .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    
+} 
+
+.team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.team .team_member .social-icons{
+    font-size: 20px;
+}
+
